@@ -1,0 +1,54 @@
+/* All <h1> elements 
+h1 {
+    color: aqua;
+    background-color: red;
+}
+
+ All <p> elements 
+p {
+    color: aqua;
+    background-color: red;
+}*/
+
+/* All <p> and <h1> elements */
+h1, p {
+    color: aqua;
+    background-color: red;
+}
+
+/* ID selector */
+#logo {
+    color: black;
+}
+
+/* Class selector (All "info" class) */
+.info {
+    color:  orange;
+    background-color: black;
+}
+
+#logo, .lead-info {
+    font-size: 40px;
+}
+
+a {
+    color: black;
+}
+
+/* <li> elemntin içindeki <a> elements 
+"text-decoration" attribute for
+underline: remove;
+*/
+ul li a {
+    text-decoration: none;
+}
+
+.info span {
+    color: purple;
+}
+
+/* All elements (Global)*/
+* {
+    scroll-behavior: smooth;
+    background-color: darkgrey;
+}
