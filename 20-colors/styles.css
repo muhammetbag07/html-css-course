@@ -1,0 +1,13 @@
+h1 {
+    color: red;
+}
+
+h2 {
+    background-color: rgba(255,0,100,0.6);
+}
+
+/*opacity attribute bulanıklık için*/
+p {
+    color: red;
+    opacity: 0.5;
+}
