@@ -1,0 +1,48 @@
+/*body {
+    background-image: url(assets/image.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom; 
+}*/
+
+body {
+    background: url(assets/image.jpeg) no-repeat fixed top left;
+}
+
+.box-1 {
+    background:seagreen;
+    color: white;
+}
+
+.box-2 {
+    margin: 100px;
+    color: white;
+    background: url(assets/image.jpeg);
+    width: 275px;
+    height: 183px;
+
+}
+
+/* "image" resim koymak için
+    "url()" fonksiyonu resim için
+    "widht/heigh" yükseklik ve genişlik için
+    "repeat" attribute tekrarlamasının ayarı için
+    "position" attribute konumu için
+    "fixed" attribute konumu değişmemesi için
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
