@@ -1,0 +1,38 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #a7a7a7;
+}
+
+div.box-1 {
+    color: aqua;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+div.box-2 {
+    color:  purple;
+    /* top-right-bottom-left */
+    margin: 60px 10px 60px 10px;
+}
+
+div.box-3 {
+    color: blue;
+    /*top-right , bottom-left*/
+    margin: 100px 50px;
+}
+
+div.box-4 {
+    color: red;
+    /* "All sides" */
+    margin: 100px;
+}
+
+div.box-5 {
+    width: 200px;
+    margin: auto;
+}
