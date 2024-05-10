@@ -1,7 +1,28 @@
 * {
     scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing for all content give same */
+    box-sizing: border-box;
 }
 
 body {
     background-color: #a7a7a7;
+}
+
+div.box-1 {
+    width: 700px;
+    height: 150px;
+    border: 5px red solid;
+    border-radius: 5px;
+    /* same as margin */
+    padding: 50px;
+}
+
+div.box-2 {
+    width: 700px;
+    height: 150px;
+    border: 5px red solid;
+    margin-top: 100px;
+    padding: 10px 20px 10px 20px;
 }
