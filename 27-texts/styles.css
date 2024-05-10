@@ -1,0 +1,57 @@
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    background-color: aqua;
+    color: darkred;
+    margin: 30px 0px;
+}
+
+h1.head1 {
+    text-align: center;
+}
+
+h1.head2 {
+    text-align: right;
+}
+
+h1.head3 {
+    text-align: left;
+}
+
+div {
+    width: 500px;
+    height: 150px;
+    background-color: #a7a7a7;
+    border: 5px black solid;
+    margin: 50px;
+}
+
+div.art-1 {
+    /* text-align for position */
+    text-align: center;
+}
+
+h2 {
+    letter-spacing: 3px;
+}
+
+p {
+    text-decoration: overline;
+}
+
+a {
+    text-decoration: none;
+}
+
+div.art-2 {
+    text-align: left;
+}
+
+div.art-3 {
+    text-align: right;
+}
