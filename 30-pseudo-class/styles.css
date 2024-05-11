@@ -1,0 +1,60 @@
+* {
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-size: 24px;
+    background-color: #a7a7a7;
+}
+
+header {
+    background-color: aqua;
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+header div {
+    margin: 0px 150px;
+}
+
+header i {
+    margin: 30px 0px;
+}
+
+header div.links {
+    display: flex;
+}
+
+a {
+    margin: 30px 10px;
+    text-decoration: none;
+}
+
+/* "hover" pseudo mause üstünde iken*/
+.a1:hover {
+    color: red;
+}
+
+/* "visited" pseudo tıklandıktan sonra herzaman*/
+.a2:visited {
+    color: orange;
+}
+
+/* "active" pseudo tıklarken*/
+.a3:active {
+    color: green;
+}
+
+header div input {
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+/* "focus" tıkaldınktan sonra inputlar için*/
+input:focus {
+    outline-color: red;
+}
