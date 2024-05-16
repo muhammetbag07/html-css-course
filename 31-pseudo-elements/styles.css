@@ -12,11 +12,13 @@ p::first-letter {
     font-size: 2em;
 }
 
+/* elementin öncesine koyulan */
 p::before {
     content: "BEFORE";
     font-size: 2.4em;
 }
 
+/* elementin sonrasına koyulan */
 p::after {
     content: "AFTER";
     font-size: 2.4em;
