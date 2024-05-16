@@ -1,0 +1,24 @@
+* {
+    font-size: 1.5rem;
+}
+
+.ol1 li:nth-child(1) {
+    color: red !important;
+}
+/* çift olanlar */
+.ol1 li:nth-child(even) {
+    color:  blue;
+}
+/* tekli olanlar */
+.ol1 li:nth-child(odd) {
+    color: purple ;
+}
+/* A*n = kaç kere tekrar edecek
+   + B = kaçıncıdan başlayacak*/
+.ol2 li:nth-child(2n + 2) {
+    color: gold;
+}
+
+.ol2 li:nth-child(n + 4) {
+    background-color: aqua;
+}
