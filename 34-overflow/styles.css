@@ -1,0 +1,11 @@
+div {
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #a7a7a7;
+    /*auto for side scroll*/
+    /*"scroll" for aside and bottom scroll*/
+    /*overflow: visible; default*/
+    overflow: auto;
+}
