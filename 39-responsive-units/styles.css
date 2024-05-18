@@ -1,0 +1,98 @@
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.em {
+     parent body olduğu için "body" in 1.5 katı
+    font-size: 1.5em;
+}
+
+.em p {
+     parent div olduğu için "div" in 1.5 katı
+    font-size: 1.5em;
+}
+
+.em , p {
+    text-align: center;
+}
+
+.rem p {
+     "<html>" tagın font'un 1.5 katı 
+    font-size: 1.2rem;
+}
+
+header {
+    background-color: #a7a7a7a7;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     "margin/padding" em kullanır iken kendi elementin fontsize göre uyar
+    margin: 2em 0;
+}
+
+.box {
+    text-align: center;
+    margin: 1.5rem;
+    width: 100%;
+    height: 25%;
+    background-color: red;
+}
+
+.container {
+    width: 100vw;
+    height: 40vh;
+    background-color:cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    margin: 0.7rem;
+    width: 3em;
+    height: 3em;
+    background-color: blue;
+}*/
+/* end of first lesson */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background: url(assets/pexels-adrien-olichon-1257089-2387793.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 10rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+@media(max-width:768px) {
+    h1 {
+        margin-bottom: 1rem;
+        letter-spacing: 1px;
+    }
+
+    p {
+        display: none;
+    }
+}
