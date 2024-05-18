@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    /* "wrap" sığmaz ise aşşağa atıyor*/
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: #a7a7a7;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    /* her bir item 25% width kapsayacak*/
+    width: 25%;
+}
+
+/* Tablet*/
+@media(max-width:768px) {
+/* 768px aşşağa iner ise bu kodlar geçerlidir komudunu sağlıyor */
+    body {
+        background: green;
+    }
+    
+    .item {
+/*default 25% iken screen küçülünce ,50% oldu
+bunun sayesinde tasarım değişti*/
+        width: 50%;
+    }
+}
+
+@media(min-width:768px) {
+/*bunda ise 768px üstünde ise bu kodlar geçerlidir diyor*/
+/* 768'den büyük olan "p" "none" iken küçülünce
+"block" oldu */
+    p {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media(max-width:500px) {
+    /*500px aşşağa indi ve mavi oldu*/
+    body {
+        background: blue;
+    }
+    /*500px aşşağa indi ve 4 e bölündüler*/
+    .item {
+        width: 100%;
+    }
+}
