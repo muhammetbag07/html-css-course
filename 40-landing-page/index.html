@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="HTML5,CSS,JavaScript">
+    <meta name="description" content="Muhammet BAĞ Tanitim Sayfasi">
+    <!-- Fonts Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Global & Main-->
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="./assets/css/tablet.css">
+    <!-- Mobile -->
+    <link rel="stylesheet" media="(max-width:500px)" href="./assets/css/mobile.css">
+    <title>Muhammet BAĞ Tanitim Sayfasi</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1>Muhammet BAĞ</h1>
+                 <ul>
+                    <li><a href="#home">Ana Sayfa</a></li>
+                    <li><a href="#training">Eğitimler</a></li>
+                    <li><a href="#courses">Kurslar</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                 </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Home -->
+    <section id="home">
+        <img src="assets/images/rudeus.jpg" alt="This profile didn't exit.">
+        
+        <div class="name text-center">
+            <h2 class="heading-big">Muhammet BAĞ</h2>
+            <p>Software Developer</p>
+        </div>
+
+        <a href="#courses">Kurslara Git</a>
+    </section>
+    <!-- Training -->
+    <section id="training" class="bg-dark-blue">
+        <h3 class="heading-medium text-center">Eğitimler</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Sinif İçi Eğitimler</h3>
+                <p>Lorem ip sum dolor sit amet, consectetur adipisicing elit. Placeat, officia.</p>
+            </article>
+
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Konferans</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, officia.</p>
+            </article>
+
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Çevre Temizliği</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, officia.</p>
+            </article>
+        </div>
+    </section>
+    <!-- Courses -->
+    <section id="courses">
+        <h3 class="heading-medium text-center">Software Kursları</h3>
+
+        <div class="container">
+            <div class="courses">
+                <!-- Course 1 -->
+                <div class="course">
+                    <div class="course-img">
+                        <img src="assets/images/HTML.png" width="200px" height="200px" alt="HTML5">
+                        <span>90% İndirim</span>
+                    </div> 
+
+                    <div class="course-info">
+                        <div class="title">
+                            HTML5 Geliştirici Kursu
+                        </div>
+                        <div class="description">
+                            HTML5 Geliştirici Kursu / Sıfırdan HTML5 Öğrenin
+                        </div>
+                        <div class="instructor">
+                            Muhammet BAĞ / Yazılım Bilimi
+                        </div>
+                        <div class="rating">
+                            2.5 / (6000 Oylama)
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course 2 -->
+                <div class="course">
+                    <div class="course-img">
+                        <img src="assets/images/JS.webp" width="200px" height="200px" alt="JS">
+                        <span>90% İndirim</span>
+                    </div>
+                    
+                    <div class="course-info">
+                        <div class="title">
+                            JS Geliştirici Kursu
+                        </div>
+                        <div class="description">
+                            JS Geliştirici Kursu / Sıfırdan JS Öğrenin
+                        </div>
+                        <div class="instructor">
+                            Muhammet BAĞ / Yazılım Bilimi
+                        </div>
+                        <div class="rating">
+                            4.6 / (7000 Oylama)
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course 3 -->
+                <div class="course">
+                    <div class="course-img">
+                        <img src="assets/images/CSS.png" width="200px" height="200px" alt="stylesheet">
+                        <span>90% İndirim</span>
+                    </div>
+                    
+                    <div class="course-info">
+                        <div class="title">
+                            CSS Geliştirici Kursu
+                        </div>
+                        <div class="description">
+                            CSS Geliştirici Kursu / Sıfırdan CSS Öğrenin
+                        </div>
+                        <div class="instructor">
+                            Muhammet BAĞ / Yazılım Bilimi
+                        </div>
+                        <div class="rating">
+                            5 / (20000 Oylama)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center">Bana Ulaşın</h4>
+                <div class="form-group">
+                    <label for="name">İsim</label>
+                    <input type="text" name="name" id="name" class="form-control" placeholder="İsim">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Name97@gmail.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Mesaj</label>
+                    <textarea name="message" id="message" rows="5" class="form-control" placeholder="Mesajınız"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-dark btn-block">Gönder</button>
+            </form>
+
+            <ul>
+                <li>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
